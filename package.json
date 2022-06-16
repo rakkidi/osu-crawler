@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "osu-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.6",
+    "dotenv": "^16.0.0",
+    "node-persist": "^3.1.0",
+    "puppeteer": "^13.7.0",
+    "puppeteer-core": "^13.7.0",
+    "selenium-webdriver": "^4.1.2",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
